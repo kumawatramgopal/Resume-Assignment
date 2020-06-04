@@ -1,0 +1,194 @@
+
+#banner,#navigation,#blog-list,.football-blogs,.Cricket-Blogs,.athlete-blogs,#Current-News,#about-section ,#contact-details,#About{
+    width: 90%;
+    border: 10px solid green;
+    padding: 15px;
+    margin: 20px;
+  }
+
+  #banner,#navigation,#blog-list,#Current-News,#about-section,#About {
+      background:lightgray;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color: darkred;
+  }
+
+/* Pseudo Classes in CSS */
+
+/* element:pseudoClass{
+    property: value
+ } 
+    Dynamic pseudo classes
+    1. hover
+    2. active
+    3. visited
+ */
+
+a:hover{
+     background:skyblue;
+ }
+
+ p:hover{
+     color: rgb(201, 75, 117);
+     font-size: 15px;
+ }
+
+ a:active{
+     color: orange;
+ }
+
+ a:visited{
+     color:navy;
+ }
+
+ /* Position:
+    static
+    relative
+    absolute
+    fixed
+    sticky
+*/
+
+/*#header{
+    position: fixed;
+    text-align: center;
+    z-index: 1; 
+    margin: 0 auto;
+    display: block;
+}*/
+#header{
+    position: fixed;
+    text-align: center;
+    z-index: 1; 
+    /*margin: 0 auto;
+    display: block;*/
+    padding: 20px;
+    background: lightseagreen;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+#header h1{
+    font-size: 50px;
+    background: lightskyblue;
+}
+
+#header h1{
+    color: white;
+    border: 6px solid white;
+    padding: 5px 10px;
+    display: inline-block;
+    border-radius: 30px;
+    /*background: lawngreen;*/   
+}
+ nav{
+    max-width: 100%;
+    background: #ccc;
+    margin: 0px auto;
+    padding: 15px;
+    position: relative;;
+    top: 20px;
+}
+
+nav ul{
+    white-space: nowrap;
+}
+
+nav li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+
+}
+ 
+footer{
+    text-align: center;
+    max-width: 100%;
+    background: #ccc;
+    margin: 0px auto;
+    padding: 15px;
+    position: sticky;
+    top: 45px;
+}
+
+footer #contact-section{
+    white-space: nowrap;
+    
+}
+
+footer .contact-method{
+    display: inline-block;
+    width: 33%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.outer-box{
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.box{
+    margin: 30px auto;
+    padding: 10px 5px;
+    border: 4px solid purple;
+    width: 216px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+    overflow: auto;
+    
+}
+
+.inner-box{
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed black;
+    display: fixed;
+}
+
+section.blog-list{
+    background: url(../img/5a44ac7314c4d_thumb900.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    color:black;
+    font: x-small;
+}
+
+.football-blog,.Cricket-Blog,.athlete-blog{
+    width: 90%;
+    border: 5px dashed seagreen;
+    padding: 25px;
+    margin: 20px;
+}
+
+div#blog-list{
+    background: url(../img/rivals-wallpaper-1366x768.jpg);
+    background-size: 100% 100%;
+    color:rgb(224, 57, 202);;
+}
+
+body{
+    background: url(../img/5a44ac7314c4d_thumb900.jpg);
+}
+
+.Cricket-Blogs{
+    background: url(../img/310605.jpg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+}
+
+.football-blogs{
+    background: url(../img/leo_messi_4-wallpaper-1366x768.jpg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.athlete-blogs{
+    background: url(../img/cycle.jpeg);
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
